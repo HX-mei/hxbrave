@@ -20,7 +20,7 @@
       <el-timeline-item timestamp="2022年" placement="top">
         <el-card>
           <h4>个人简历</h4><br>
-          <p>基于Vue + VueRouter + Axios + ElementUI的个人简历网站。</p>
+          <p>基于Vue + VueRouter + ElementUI的个人简历网站。</p>
         </el-card>
       </el-timeline-item>
     </el-timeline>

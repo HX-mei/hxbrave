@@ -1,7 +1,7 @@
 # 晓晓的个人简历
 
 ## 项目技术栈
-Vue全家桶：Vue + VueRouter + Axios + ElementUI
+Vue全家桶：Vue + VueRouter + ElementUI
 
 ## 安装依赖：
 1. 网络请求`npm install --save axios`
@@ -9,7 +9,6 @@ Vue全家桶：Vue + VueRouter + Axios + ElementUI
 
 ## VueCli工具版本
 1. VueCli2.x
-2. VueCli3.x
 
 ### Compiles and hot-reloads for development
 ```
