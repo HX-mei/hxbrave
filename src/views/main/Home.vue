@@ -50,7 +50,6 @@ export default {
   border-radius: 10px;
   background-color: rgba(236, 236, 236, 0.59);
   transition: all 1s;
-  /*box-shadow: 0px 0px 20px rgba(0,0,0,0.3);*/
 }
 
 .content img {

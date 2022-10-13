@@ -9,48 +9,32 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    // name: 'LayOut',
     component: LayOut,
     children:[
       {
         path: '',
         name: 'Home',
         component: Home,
-        // meta: {
-        //   isLogin: true
-        // }
       },
       {
         path: 'basedata',
         name: 'BaseData',
         component: () =>import("../views/main/BaseData.vue"),
-        // meta:{
-        //   isLogin:true
-        // }
       },
       {
         path: 'practiceitem',
         name: 'PracticeItem',
         component: () =>import("../views/main/PracticeItem.vue"),
-        // meta:{
-        //   isLogin:true
-        // }
       },
       {
         path: 'workhistory',
         name: 'WorkHistor',
         component: () =>import("../views/main/WorkHistory.vue"),
-        // meta:{
-        //   isLogin:true
-        // }
       },
       {
         path: 'selfevalu',
         name: 'SelfEvalu',
         component: () =>import("../views/main/SelfEvalu.vue"),
-        // meta:{
-        //   isLogin:true
-        // }
       },
     ]
   },
