@@ -4,8 +4,7 @@
 Vue全家桶：Vue + VueRouter + ElementUI
 
 ## 安装依赖：
-1. 网络请求`npm install --save axios`
-2. Element`vue add element`
+1. Element`vue add element`
 
 ## VueCli工具版本
 1. VueCli2.x
